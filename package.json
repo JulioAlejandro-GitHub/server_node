@@ -1,7 +1,6 @@
 {
   "name": "06-webserver",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -13,5 +12,14 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "hbs": "^4.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julio2501/server_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julio2501/server_node/issues"
+  },
+  "homepage": "https://github.com/julio2501/server_node#readme",
+  "description": ""
 }
