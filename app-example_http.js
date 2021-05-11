@@ -1,12 +1,8 @@
 
 const http = require('http');
 
-
-
 http.createServer( (request, response) => {
-
     console.log(request);
-
     /*
     //archivo csv
     response.setHeader('Content-Disposition','attachment; filename=lista.csv');
@@ -14,6 +10,5 @@ http.createServer( (request, response) => {
     response.write('id, nombre\n'); response.write('1, nombre 1\n');
     */
     response.end();
-
 })
 .listen(8080);
